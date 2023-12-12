@@ -433,51 +433,51 @@ type Layout struct {
 
 	// Xaxis
 	// role: Object
-	Xaxis *LayoutXaxis `json:"xaxis,omitempty"`
+	Xaxis *LayoutXaxis `json:"xaxis1,omitempty"`
 
 	// Yaxis
 	// role: Object
-	Yaxis *LayoutYaxis `json:"yaxis,omitempty"`
+	Yaxis *LayoutYaxis `json:"yaxis1,omitempty"`
 
 	// XAxis2
 	// X Axis number 2
-	XAxis2 *LayoutXaxis `json:"xaxis2,omitempty"`
+	Xaxis2 *LayoutXaxis `json:"xaxis2,omitempty"`
 
 	// XAxis3
 	// X Axis number 3
-	XAxis3 *LayoutXaxis `json:"xaxis3,omitempty"`
+	Xaxis3 *LayoutXaxis `json:"xaxis3,omitempty"`
 
 	// XAxis4
 	// X Axis number 4
-	XAxis4 *LayoutXaxis `json:"xaxis4,omitempty"`
+	Xaxis4 *LayoutXaxis `json:"xaxis4,omitempty"`
 
 	// XAxis5
 	// X Axis number 5
-	XAxis5 *LayoutXaxis `json:"xaxis5,omitempty"`
+	Xaxis5 *LayoutXaxis `json:"xaxis5,omitempty"`
 
 	// XAxis6
 	// X Axis number 6
-	XAxis6 *LayoutXaxis `json:"xaxis6,omitempty"`
+	Xaxis6 *LayoutXaxis `json:"xaxis6,omitempty"`
 
 	// YAxis2
 	// Y Axis number 2
-	YAxis2 *LayoutYaxis `json:"yaxis2,omitempty"`
+	Yaxis2 *LayoutYaxis `json:"yaxis2,omitempty"`
 
 	// YAxis3
 	// Y Axis number 3
-	YAxis3 *LayoutYaxis `json:"yaxis3,omitempty"`
+	Yaxis3 *LayoutYaxis `json:"yaxis3,omitempty"`
 
 	// YAxis4
 	// Y Axis number 4
-	YAxis4 *LayoutYaxis `json:"yaxis4,omitempty"`
+	Yaxis4 *LayoutYaxis `json:"yaxis4,omitempty"`
 
 	// YAxis5
 	// Y Axis number 5
-	YAxis5 *LayoutYaxis `json:"yaxis5,omitempty"`
+	Yaxis5 *LayoutYaxis `json:"yaxis5,omitempty"`
 
 	// YAxis6
 	// Y Axis number 6
-	YAxis6 *LayoutYaxis `json:"yaxis6,omitempty"`
+	Yaxis6 *LayoutYaxis `json:"yaxis6,omitempty"`
 }
 
 // LayoutActiveshape
