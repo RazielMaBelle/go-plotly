@@ -80,7 +80,18 @@ func computeOptions(def Options, opt ...Options) Options {
 
 var baseHtml = `
 	<head>
-		<script src="https://cdn.plot.ly/plotly-1.58.4.min.js"></script>
+	<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_SVG">
+	</script>
+	<script type="text/javascript">
+	if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}
+	</script>
+
+	<script type="text/javascript">
+	window.PlotlyConfig = {MathJaxConfig: 'local'};
+	</script>
+
+	<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
 	</head>
 	</body>
 		<div id="plot"></div>
